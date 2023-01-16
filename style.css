@@ -76,7 +76,7 @@ body {
 }
 
 .explore-button {
-    background-color: rgb(251, 174, 33);
+    background-color: #FF900E;
     color: whitesmoke;
     border-style: none;
     border-radius: 5px;
@@ -99,3 +99,106 @@ body {
 }
 
 /* Heading styles end... */
+/* body section styles start */
+.teams>div {
+    flex: 1;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    width: 340px;
+    height: 336px;
+    padding-top: 50px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.image-title {
+    width: 550px;
+    height: 275px;
+    padding: 5px;
+    margin-left: 430px;
+    margin-right: 150px;
+    margin-top: 200px;
+
+
+}
+
+#image-id {
+    font-size: 45px;
+}
+
+.quick-list {
+    color: #727272;
+    font-weight: 300;
+}
+
+.features {
+    color: #FF900E;
+}
+
+. .team-button {
+    padding: 20px;
+    margin-top: 32px;
+    width: 150;
+    height: 60px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.image-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sponsors */
+.sponsor {
+    text-align: center;
+    width: 33%;
+    height: 129px;
+    margin-top: 390px;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+.sponsor-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor-info {
+    color: #727272;
+    font-size: 16px;
+
+}
+
+/* sponsor logos */
+.sponsor-companies {
+    display: flex;
+    margin: 0 240px;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.sponsors-name {
+    width: 150px;
+    height: 50px;
+}
+
+/* Footer stytes*/
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(247, 242, 242);
+    color: #424242;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 130px;
+}
