@@ -123,8 +123,6 @@ body {
     margin-left: 430px;
     margin-right: 150px;
     margin-top: 200px;
-
-
 }
 
 #image-id {
@@ -140,14 +138,13 @@ body {
     color: #FF900E;
 }
 
-. .team-button {
+.team-button {
     padding: 20px;
     margin-top: 32px;
     width: 150;
     height: 60px;
     font-weight: 500;
     font-size: 20px;
-
 }
 
 .image-line {
@@ -155,12 +152,162 @@ body {
     justify-content: space-between;
 }
 
+/* main section */
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-photo {
+    margin: 0;
+    width: 600px;
+    height: 800px;
+    margin-right: 230px;
+    margin-top: 350px;
+    margin-left: 35px;
+}
+
+.main-text {
+    margin: 0;
+
+    margin-top: 350px;
+}
+
+.main-text p {
+    color: #727272;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.architecture-info-1 {
+    margin-left: 225px;
+    margin-bottom: 10px;
+}
+
+.architect-title-1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 230px;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    border-left: solid #FF900E;
+    border-left-width: 5px;
+
+}
+
+.box {
+    margin: 0;
+    margin-left: 230px;
+}
+
+.box h1 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+
+
+}
+
+.box p {
+    margin-top: 10px;
+}
+
+.box-1 {
+    margin-top: 25px;
+    box-shadow: 5px 5px 10px #A1A1A1;
+}
+
+.box-2,
+.box-3,
+.box-4 {
+    margin-top: 20px;
+    box-shadow: 5px 5px 10px #A1A1A1;
+    padding: 10px;
+}
+
+.main-section-button {
+    background-color: #FF900E;
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 8px;
+    height: 150px;
+    width: 300px;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    margin-left: 650px;
+    margin-top: 65px;
+}
+
+.main-section-button h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+
+.main-section-button p {
+    font-size: 20px;
+}
+
+/* facts */
+.facts {
+    margin-left: 230px;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.facts-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.facts-input {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.icon {
+    margin: 0 230px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.facts-icon {
+    border: 1px solid #FF900E;
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+.facts-icon h1 {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.facts-icon p {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
 /* sponsors */
 .sponsor {
     text-align: center;
     width: 33%;
     height: 129px;
-    margin-top: 390px;
+    margin-top: 180px;
     margin-left: 33%;
     margin-right: 33%;
 }
@@ -176,10 +323,9 @@ body {
 
 }
 
-/* sponsor logos */
 .sponsor-companies {
     display: flex;
-    margin: 0 240px;
+    margin: 0 230px;
     justify-content: space-between;
     margin-top: 50px;
 
@@ -192,13 +338,17 @@ body {
 
 /* Footer stytes*/
 .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(247, 242, 242);
     color: #424242;
+    background-color: #FFF4E7;
     text-align: center;
+    padding-top: 10px;
     padding-bottom: 20px;
     margin-top: 130px;
+    margin-left: 210px;
+    margin-right: 210px;
+    align-items: center;
+}
+
+footer {
+    margin-bottom: 100px;
 }
